@@ -1775,6 +1775,7 @@ img {
   }
   .header__list {
     gap: 20px;
+    margin: 0;
     flex-direction: column;
   }
   .header__text {

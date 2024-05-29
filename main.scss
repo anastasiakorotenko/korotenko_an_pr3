@@ -663,6 +663,7 @@ img {
             }
         }
         &__list {
+	    margin: 0;
             gap: 20px;
             flex-direction: column;
         }

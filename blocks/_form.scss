@@ -1,0 +1,57 @@
+.form {
+    &__body {
+        background-color: #A2BE95;
+        border-radius: 30px;
+        width: 1380px;
+        display: flex;
+        margin: 111px auto;
+    }
+    &__text-form {
+        margin: 30px 32px 32px 30px;
+    }
+    &__title {
+        margin-bottom: 50px;
+        font-size: 48px;
+        line-height: 61.44px;
+        color: $wh;
+        width: 600px;
+    }
+    &__input {
+        font-size: 16px;
+        line-height: 20.48px;
+        background-color: #FAF6F2;
+        width: 308px; 
+        height: 48px;
+        border-radius: 40px;
+        padding-left: 15px;
+        color: $darkbr;
+        font-weight: 500;
+        &:first-child {
+            margin-right: 30px;
+        }
+    }
+    &__button {
+        margin-top: 30px;
+        @include button-g;
+        @include button-t-wh;
+        display: block;
+        padding: 9px 85.5px;
+        cursor: pointer;
+    }
+    &__contacts {
+        display: flex;
+        gap: 21px;
+        align-items: center;
+        margin: 8px 0 0 auto;
+        width: 268px;
+    }
+    &__text-contacts {
+        font-size: 18px;
+        line-height: 21.56px;
+        width: 199px;
+        color: $wh;
+    }
+    &__img {
+        margin-top: -62px;
+    }
+}

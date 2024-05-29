@@ -1,0 +1,80 @@
+.delivery {
+    &__body {
+        display: flex;
+        width: 1380px;
+        margin: 50px auto 0;
+        border-radius: 30px;
+        background-color: #F4EDDE;
+        flex-direction: column;
+        gap: 30px;
+        padding: 30px;
+    }
+    &__title {
+        font-size: 48px;
+        line-height: 61.44px;
+    }
+    &__subtitle {
+        font-size: 24px;
+        line-height: 30.72px;
+        width: 716px;
+    }
+    &__map-box {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__text-box {
+        display: flex;
+        gap: 30px;
+        flex-direction: column;
+    }
+    &__text-stroke {
+        display: inline-flex;
+        border-radius: 30px;
+        font-size: 20px;
+        line-height: 25.6px;
+        align-items: center;
+    }
+    &__text-stroke, &__text-phone, &__subtitle {
+        color: $darkbr;
+    }
+    &__text-stroke_green {
+        border: 2px solid #1EB949;
+        padding: 17px 54px;
+    }
+    &__text-stroke_blue {
+        border: 2px solid #34A2FE;
+        padding: 17px 42px 17px 41px;
+    }
+    &__text-stroke_yellow {
+        border: 2px solid #FFBC4F;
+        padding: 17px 39px 17px 40px;
+    }
+    &__text-stroke_red {
+        border: 2px solid #FC5239;
+        padding: 17px 38px;
+    }
+    &__text {
+        margin: 50px 0 30px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20.48px;
+    }
+    &__text-phone {
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 30.72px;
+    }
+    &__text-time {
+        font-size: 12px;
+        line-height: 15.36px;
+        color: #756D6D;
+    }
+    &__button_green {
+        @include button-g;
+        padding: 9px 86.5px;
+        margin-top: 30px;
+    }
+    &__button-text_white {
+        @include button-t-wh;
+    }
+}

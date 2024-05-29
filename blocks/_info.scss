@@ -1,0 +1,32 @@
+.info {
+    &__body {
+        display: flex;
+        margin: auto;
+        width: 1380px;
+        flex-direction: column;
+        margin-top: 100px;
+        gap: 70px;
+    }
+    &__box {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__text-box {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        width: 756px;
+    }
+    &__title {
+        font-size: 48px;
+        line-height: 61.44px;
+    }
+    &__text {
+        width: 756px;
+        font-size: 20px;
+        line-height: 25.6px;
+        color: $darkbr;
+    }
+    &__img {width: auto;}
+    &__img-arms {margin: 0 auto;}
+}

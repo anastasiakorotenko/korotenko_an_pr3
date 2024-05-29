@@ -1,0 +1,59 @@
+.home {
+    display: flex;
+    height: 600px;
+    &__body {
+        display: flex;
+        width: 1380px;
+        margin: -58px auto 0;
+    }
+    &__img-box {
+        display: block;
+        width: 100%;
+        position: relative;
+    }
+    &__img-plate {
+        position: absolute;
+        left: 17px;
+    }
+    &__img-el-g {
+        width: 117px;
+        margin: 93px 0 0 auto;
+    }
+    &__img-el-l {
+        width: 274px;
+        margin: 38px auto 0 -25px;
+    }
+    &__text {
+        width: 747px;
+        font-size: 60px;
+        font-weight: 700;
+        line-height: 76.8px;
+        margin: 151px 0 88px;
+    }
+    &__button-box {
+        display: flex;
+        gap: 20px;
+    }
+    &__button {
+        display: inline-flex;
+        padding: 9px 26px;
+        border-radius: 40px;
+        align-items: center;
+    }
+    &__button_white {
+        border: 1px solid $gr;
+    }
+    &__button-text {
+        color: $gr;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 30px;
+    }
+    &__button_green {
+        @include button-g;
+    }
+    &__button-text_white {
+        @include button-t-wh;
+    }
+    .hide {display: none;}
+}

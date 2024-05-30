@@ -931,23 +931,6 @@ img {
   display: none;
 }
 
-.modal-open {
-  width: 70%;
-  margin: 100px auto;
-  box-shadow: 1px 1px 10px #777777;
-  padding: 15px;
-}
-
-.modal-open__img {
-  width: 100%;
-}
-
-.modal-open__descr {
-  font-size: 20px;
-  text-align: justify;
-  margin-top: 25px;
-}
-
 .modal {
   display: none;
   position: fixed;
